@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(125deg,black,lightblue);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(71, 67, 67, 0.441);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#display{
+    width: 80%;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 8%;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    box-shadow: 5px 5px 5px black;
+    border: 2px solid white;
+}
+.buttons,#clearButton,#equalButton{
+    width: 40px;
+    height: 30px;
+    position: relative;
+    left: 7%;
+    top: 10%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 21px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.buttons:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.08);
+    box-shadow: 2px 2px 5px black;
+}
+#clearButton{
+    width: 40%;
+    transition: transform 0.2s;
+}
+#equalButton{
+    width: 30%;
+    transition: transform 0.2s;
+}
+#clearButton:hover{
+    background-color: red;
+    color: black;
+    transform: scale(1.08);
+    box-shadow: 2px 2px 5px black;
+}
+#equalButton:hover{
+    background-color: lawngreen;
+    color: black;
+    transform: scale(1.08);
+    box-shadow: 2px 2px 5px black;
+}
+h1{
+    position: absolute;
+    top: 18%;
+    left: 44.5%;
+    text-decoration: underline rgb(0, 166, 255);
+    font-weight: bold;
+    color: lawngreen;
+    letter-spacing: 3px;
+}
